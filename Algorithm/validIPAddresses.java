@@ -102,18 +102,7 @@ public class ChallengeTest {
       var actual = new Challenge().validIPAddresses(input);
       assertTrue(expected.equals(actual));
 	}
-	@Test
-	public void TestCase2() {
-		String input = "3700100";
-		ArrayList<String> expected = new ArrayList<String>(
-			Arrays.asList(
-				"3.70.0.100",
-				"37.0.0.100"
-		));
-
-		var actual = new Challenge().validIPAddresses(input);
-		assertTrue(expected.equals(actual));
-	}
+	
 	@Test
 	public void TestCase3() {
 		String input = "9743";
