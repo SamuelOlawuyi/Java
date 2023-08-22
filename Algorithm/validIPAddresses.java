@@ -81,7 +81,27 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ChallengeTest {
+	@Test
+	public void TestCase1() {
+      String input = "1921680";
 
+      ArrayList<String> expected = new ArrayList<String>() {{
+		add("1.9.216.80");
+		add("1.92.16.80");
+		add("1.92.168.0");
+		add("19.2.16.80");
+		add("19.2.168.0");
+		add("19.21.6.80");
+		add("19.21.68.0");
+		add("19.216.8.0");
+		add("192.1.6.80");
+		add("192.1.68.0");
+		add("192.16.8.0");
+      }};
+      
+      var actual = new Challenge().validIPAddresses(input);
+      assertTrue(expected.equals(actual));
+	}
 	@Test
 	public void TestCase2() {
 		String input = "3700100";
