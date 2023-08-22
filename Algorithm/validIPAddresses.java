@@ -8,6 +8,23 @@ An IP address isn't valid if any of the individual integers contains leading 0s.
 
 Your function should return the IP addresses in string format and in no particular order. If no valid IP addresses can be created from the string, your function should return an empty list.
 
+Sample Input
+string = "1921680"
+Sample Output
+[
+  "1.9.216.80",
+  "1.92.16.80",
+  "1.92.168.0",
+  "19.2.16.80",
+  "19.2.168.0",
+  "19.21.6.80",
+  "19.21.68.0",
+  "19.216.8.0",
+  "192.1.6.80",
+  "192.1.68.0",
+  "192.16.8.0"
+]
+ The IP addresses could be ordered differently.
 */
 
 //Solutions
