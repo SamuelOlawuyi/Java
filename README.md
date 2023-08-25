@@ -1,1 +1,1 @@
-# Spring-data-jpa(MVC_Hibernate)
+# Spring-data-Jpa
