@@ -24,7 +24,7 @@ times	Return Value
 [[1,5],[5,6],[6,7],[7,9]]	1
 */
 
-//Solution 
+//Solution Body
 
 import java.util.ArrayList;
 import java.util.Arrays;
