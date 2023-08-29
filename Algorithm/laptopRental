@@ -64,8 +64,9 @@ class Challenge {
             }
         }
 
-//
 
         return maxLaptops;
     }
 }
+
+// Test
